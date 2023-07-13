@@ -195,6 +195,7 @@ main {
 
 .resume-container {
     display: flex;
+    gap: 50px;
 }
 
 .resume-title {
@@ -228,7 +229,88 @@ main {
     max-width: 511px;
     /* 175% */
 }
-hr{
+
+hr {
     width: 558px;
     height: 0px;
+}
+
+.submit-cv {
+    text-align: center;
+    margin: 50px 0px 113px 0px;
+}
+
+.footer-container {
+    display: flex;
+    background: #FFF8F3;
+    padding: 230px 130px;
+
+}
+
+.footer {
+    width: 50%;
+}
+
+.footer-header {
+    color: var(--dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+}
+
+.footer-para {
+    color: var(--dark-02, #474747);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+    padding: 0 0 0 230px;
+}
+
+.social-linker {
+    padding: 0 0 0 230px;
+    
+}
+
+div>a {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-right: 24px;
+
+
+}
+
+.contact input,
+textarea {
+    display: flex
+}
+
+
+input {
+    margin-bottom: 25px;
+    padding: 18px 30px;
+    color: var(--dark-03, #757575);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+    border: 0;
+width: 461px;
+height: 64px;
+}
+
+textarea {
+    padding: 18px 30px;
+    color: var(--dark-03, #757575);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+    width: 461px;
+height: 180px;
+border: 0;
+}
+
+.last-button{
+    padding-top: 24px;
 }
